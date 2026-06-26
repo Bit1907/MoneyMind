@@ -1,11 +1,7 @@
+import AppRoutes from "./AppRoutes";
+
 function App() {
-  return (
-    <div className="min-h-screen bg-slate-950 flex items-center justify-center">
-      <h1 className="text-7xl font-bold text-purple-500">
-        MoneyMind 🚀
-      </h1>
-    </div>
-  );
+  return <AppRoutes />;
 }
 
 export default App;
